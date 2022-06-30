@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <div id="background-top"></div>
+  <div id="background-bottom"></div>
+  <main class="container">
+    <div class="head">
+      <img id="head-img" src="images/bg-pattern-card.svg" alt="">
+      <img id="photo" src="images/image-victor.jpg" alt="img-victor">
+    </div>
+    <div class="info">
+      <h1>Victor Crest <span>26</span></h1>
+      <h2>London</h2>
+      <hr>
+      <div class="info-nums">
+        <div class="info-num-elem">
+          <h3>80K</h3>
+          <h4>Followers</h4>
+        </div>
+        <div class="info-num-elem">
+          <h3>803K</h3>
+          <h4>Likes</h4>
+        </div>
+        <div class="info-num-elem">
+          <h3>1.4K</h3>
+          <h4>Photos</h4>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
